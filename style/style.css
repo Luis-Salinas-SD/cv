@@ -1,5 +1,6 @@
 body {
-    background: rgb(255, 247, 235);
+    background: #fff7eb;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /*! #### Menu de navegación ####*/
@@ -58,43 +59,86 @@ ul>li>a {
 
 /*$ #### slider ####*/
 
-.slider-content {
-    display: flex;
+.slider {
     width: 100%;
-    height: 99.5vh;
-    text-align: center;
-    color: black;
-    margin-top: 50px;
+    height: 95vh;
+    /*     border: orange 2px solid; */
     background-image: url(../img/slider-font.svg);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.titulo {
-    position: absolute;
-    top: 20vh;
-    right: 20vw;
-    font-family: 'Quicksand', sans-serif;
+.slider-content {
+    height: 60%;
+    margin: 0 20%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    /*     border: 2px orange solid; */
+}
+
+.title {
+    font-size: 2.5rem;
+    color: rgb(3, 3, 3);
+    margin: 0px;
+}
+
+.sub-title {
+    font-size: 2rem;
 }
 
 /*$ #### slider(FIN) ####*/
 
-/*$ #### info ####*/
+/** #### info ####  */
 
 .info {
-    background: cyan;
-    width: 100%;
-    height: 70vh;
+    background: #9e6ff7;
+    height: 50%;
+    display: flex;
+    padding: 15rem 15%;
+    text-align: justify;
 }
 
-/*$ #### info (FIN) ####*/
+.title-info {
+    color: cornsilk;
+    font-size: 2rem;
+}
 
-/*$ #### footer ####*/
+.txt-info {
+    color: cornsilk;
+    font-size: 1.5rem;
+}
+
+/** #### info (FIN)####  */
+
+/*# skills  */
+
+.skill-content {
+    background: rgb(247, 209, 174);
+    height: 10%;
+    width: auto;
+    margin: 0 20%;
+    border-radius: 15px;
+}
+
+.skill-child {
+    height: 50vh;
+    margin-top: -100px;
+    padding: 15px;
+}
+
+/*# skills  */
+
+/*& footer  */
 
 .main-footer {
-    background: darkslateblue;
+    border: orange 2px solid;
     width: 100%;
     height: 30vh;
+    background: #23285a;
+    color: lightgreen;
 }
 
-/*$ #### footer (FIN) ####*/
+/*& footer (END) */
