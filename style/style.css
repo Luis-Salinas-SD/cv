@@ -139,6 +139,21 @@ a:hover {
     background: #f8f8f8;
     color: #a573fd;
     border-radius: 16px;
+    align-items: center;
+}
+
+.icon-skill {
+    color: #6a38e8;
+    font-size: 3rem;
+}
+
+.skill-content>.skill-son>ol {
+    padding-left: 0;
+}
+
+.skill-content>.skill-son>ol>li {
+    list-style: none;
+    margin: 4px;
 }
 
 /*# skills  */
@@ -154,6 +169,8 @@ a:hover {
 }
 
 /*& footer (END) */
+
+/** Responsive Designn */
 
 @media screen and (max-width: 1024px) {
     nav {
