@@ -188,6 +188,13 @@ ul>li>a {
     margin-bottom: 5vh;
 }
 
+.icon-footer {
+    font-size: 2rem;
+    padding: 2px;
+    border: #9e6ff7 solid 1px;
+    border-radius: 50%;
+}
+
 /*& footer (END) */
 
 /** Responsive Designn */
